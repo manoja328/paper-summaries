@@ -5,7 +5,7 @@ This papers talks about transfer ability of CNN models trianed on ImageNet on di
 findings:
 
 1.  When models are used as only a feature extractor, the models resutls
-    are not predictable enought to perform well on other tasks ( show by using r-squared coefficient).
+    are not predictable enought to perform well on other tasks ( show by using r-squared value for correlation).
 2.  When models are finetuned, the overall results improved and even got SOTA for some datasets.
 3.  When model are trained from scratch with random initilization their performance are similar to pretrained Imagenet models.
 
